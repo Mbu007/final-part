@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            iWelcomeYou`
+        </title>
+        <meta charset="uft-8" name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css"> <!--CSS link-->
+        <script src="scripts.js" type="text/javascript"></script> <!--JS link--> 
+    </head>
+    <body id="home-container"> <!--My body container-->
+        <h1 class="my-name"><span id="home-span1">Hello.</span> <span id="home-span2">I'm</span><br> <span id="home-span3">MBUYISELI</span> <span id="home-span4">VOYI</span></h1>
+        <div class="intro">
+            <h2 id="home-h2"></h2>
+            <p id="home-p">
+                Please have a seat, scroll down, and i'll get you a coffee.
+            </p>
+        </div>
+
+        <img id="logo" src="logo.png" alt="page logo" width="100px" height="100px"></a>
+        <a href="more.html"><b>Learn More...</b></a>
+
+        <div class="gallery-sum">
+
+        </div>
+        <script>
+            function myWeb() {
+            let a = alert('Hi. Thanks for visiting my Website.');
+            let b = prompt('Please enter your name');
+            document.getElementById("home-h2").innerHTML = "Hello" + ' ' + b.toUpperCase() + " Welcome to my Portfolio!";
+            }
+            myWeb();
+        </script>
+</html>
